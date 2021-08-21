@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchease Mac Book</title>
+    <!-- css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start main part -->
+    <main>
+        <section>
+            <div class="d-grid">
+                <!-- images part -->
+                <div>
+                    <img src="images/mac.png" alt="Mac book picture">
+                </div>
+
+                <!-- right side part -->
+                <div class="top-part">
+                    <!-- topper part -->
+                    <div class="top-heading">
+                        <h1>Customize Your Blue 24-Inch <br> iMac with Apple M1 chip</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 perfomance cores and 4 efficiency cores, <br> 7 core GPU,and 16 core Neurel Engine 8GB unifield memory 256GB SSD</p>
+                    </div>
+
+                    <!-- memory part -->
+                    <div class="memory-part">
+                        <h3>Memory</h3>
+                        <button id="memory-8gb" value="0">8GB unifield memory</button>
+                        <button id="memory-16gb" value="180">16GB unifield memory</button>
+                    </div>
+
+                    <!-- storage part -->
+                    <div class="storage-part">
+                        <h3>Storage</h3>
+                        <button id="storage-25gb" value="0">25GB SSD Storage</button>
+                        <button id="storage-512gb" value="100">512GB SSD Storage</button>
+                        <button id="storage-1tb" value="180">1TB Storage</button>
+                    </div>
+
+                    <!-- delivery part -->
+                    <div class="delivery-part">
+                        <h3>choose your delivery option</h3>
+                        <button id="delivery-cost-0" value="0">Friday,AUG 25 FREE prime Delivery</button>
+                        <button id="delivery-cost-20" value="20">Friday,AUG 21 DElivery Charge $20</button>
+                    </div>
+
+                     <!-- calculation part -->
+                    <div style="width: 50%;">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Best Price</th>
+                                <th scope="col">$<span id="best-price">1299</span></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                  <th scope="col">Extra Memory Cost</th>
+                                  <th scope="col">$<span id="extra-memory-cost">0</span></th>
+                                </tr>
+                              </thead>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Extra Storage Cost</th>
+                                  <th scope="col">$<span id="extra-storage-cost">0</span></th>
+                                </tr>
+                              </thead>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Delivery Charge</th>
+                                  <th scope="col">$<span id="extra-delivery-charge">0</span></th>
+                                </tr>
+                              </thead>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Total Price</th>
+                                  <th scope="col">$<span id="total-price">1299</span></th>
+                                </tr>
+                              </thead>
+                        </table>
+                        <!-- add promo code -->
+                        <div class="promo-code">
+                            <p style="margin: 2px 0px;">Add Promo Code</p>
+                            <input id="promo-code" type="text">
+                            <button id="apply-code">Apply</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+        </section>
+    </main>
+    <!-- footer part -->
+    <footer>
+       <h1>Total: $<span id="total-money">1299</span></h1>
+    </footer>
+    <script src="js/mac-book.js"></script>
+</body>
+</html>

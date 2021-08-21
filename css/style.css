@@ -1,0 +1,91 @@
+/* common css */
+body{
+    margin: 50px auto;
+}
+h3{
+    margin: 2px 0px;
+    padding-bottom: 2px;
+}
+
+button{
+    padding: 6px 10px;
+    color: gray;
+    cursor: pointer;
+    background-color: white;
+    outline:none;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    outline: gray;
+    outline-width: 10px;
+    border-radius: 5px;
+}
+hr{
+    width: 70%;
+    margin: 40px auto;
+    margin-bottom: 5px;
+}
+/* main css */
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:10px ;
+}
+
+/* images size cover */
+div img{
+    width: 50%;
+    height: 300px;
+    float: right;
+    padding: 0px 20px;
+}
+
+/* right side part */
+
+/* topper part */
+.top-part{
+    padding: 0px 20px;
+}
+.top-heading h1{
+    font-size: 42px;
+    margin: 2px 0px;
+}
+/* memory part */
+.memory-part{
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+
+/* storage part */
+.storage-part{
+    margin-bottom: 40px;
+}
+/* delivery part */
+.delivery-part{
+    margin-bottom: 40px;
+}
+
+/* promo code part */
+.promo-code input{
+    padding:3px 10px;
+    border-radius: 5px;
+}
+.promo-code button{
+    background-color: tomato;
+    outline:none;
+    border: none;
+    color: white;
+    font-weight:500;
+}
+
+/* footer part */
+
+footer{
+    padding: 10px;
+}
+footer h1{
+    text-align: center;
+}
